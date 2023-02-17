@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background: #F0F2F0;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000C40, #F0F2F0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000C40, #F0F2F0);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form,
+div {
+    width: 40%;
+    min-width: 350px;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(54, 54, 54);
+    margin: 100px auto;
+    padding: 15px;
+}
+
+input,
+textarea {
+    display: block;
+    min-width: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: 1px solid rgb(110, 105, 105);
+    margin-top: 20px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+textarea {
+    height: 200px;
+    padding-top: 10px;
+}
+
+button {
+    display: block;
+    /*para o botão ocupar toda a linha*/
+    margin: 20px auto;
+    /*para centralizar o botão,
+    só funciona se utilizar o display block */
+    min-width: 320px;
+    height: 40px;
+    border: 1px solid rgb(110, 105, 105);
+    border-radius: 5px;
+    background-color: silver;
+    cursor: pointer;
+    /*mãozinha*/
+}
+
+button:hover {
+    /*quando passa o cursor em cima muda de cor*/
+    opacity: 0.8;
+}
+
+button:active {
+    /*sensação de clickar*/
+    opacity: 0.6;
+}
+
+h1,
+p {
+    text-align: center;
+    margin: 10px;
+}
